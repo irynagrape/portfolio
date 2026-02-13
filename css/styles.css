@@ -213,6 +213,102 @@ h3 {
   margin-top: var(--space-2);
 }
 
+.projects-showcase {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.project-feature {
+  background: linear-gradient(145deg, #f8fcff 0%, #f0f7ff 100%);
+  border: 1px solid #dbeafe;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.project-media-wrap {
+  position: relative;
+  padding: var(--space-3);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(37, 99, 235, 0.2), transparent 42%),
+    radial-gradient(circle at 100% 100%, rgba(14, 116, 144, 0.2), transparent 44%),
+    #eaf4ff;
+}
+
+.project-media {
+  width: 100%;
+  height: clamp(320px, 45vw, 620px);
+  object-fit: contain;
+  object-position: top center;
+  border-radius: 12px;
+  border: 1px solid #cfe3ff;
+  background: #f8fafc;
+}
+
+.project-chip-row {
+  position: static;
+  margin-top: var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.project-chip-row span {
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(15, 23, 42, 0.85);
+  color: #f8fafc;
+  border-radius: 999px;
+  padding: 0.3rem 0.55rem;
+}
+
+.project-content {
+  padding: var(--space-4);
+  display: grid;
+  gap: var(--space-3);
+}
+
+.project-index {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #0f766e;
+  text-transform: uppercase;
+}
+
+.project-description {
+  color: var(--muted);
+}
+
+.project-rail {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-4);
+}
+
+.project-rail h3 {
+  margin-bottom: var(--space-2);
+}
+
+.project-rail p {
+  color: var(--muted);
+}
+
+.project-rail ol {
+  margin: var(--space-3) 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.35rem;
+  color: #334155;
+  font-weight: 600;
+}
+
 .projects-note {
   color: var(--muted);
   margin: calc(-1 * var(--space-3)) 0 var(--space-4);
@@ -384,6 +480,10 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
+  .projects-showcase {
+    grid-template-columns: 1fr;
+  }
+
   .skills {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -403,5 +503,13 @@ textarea:focus {
 
   .section {
     padding: var(--space-6) 0;
+  }
+
+  .project-chip-row {
+    margin-top: var(--space-2);
+  }
+
+  .project-media-wrap {
+    padding: var(--space-3);
   }
 }
