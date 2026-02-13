@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Irene Grape — Front-End Developer</title>
-    <meta name="description" content="Front-end developer portfolio: responsive interfaces with React, JavaScript, HTML, and CSS." />
+    <title>Irene Grape | Front-End Developer Portfolio</title>
+    <meta name="description" content="Front-end developer portfolio featuring responsive interfaces, API-driven projects, and accessible UI built with JavaScript, React, HTML, and CSS." />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
@@ -19,6 +19,7 @@
                 <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
                 <a href="#about">About</a>
+                <a href="#contact">Contact</a>
                 <a href="https://github.com/irynagrape/" target="_blank" rel="noopener">GitHub</a>
                 <a class="btn btn-small" href="assets/Irene_Grape_Frontend_Developer.pdf" target="_blank" rel="noopener" download>Resume</a>
             </div>
@@ -30,11 +31,10 @@
         <section class="hero container">
             <div class="hero-text">
                 <p class="kicker">Front-End Developer</p>
-                <h1>Front-End Developer focused on clean UI, structured logic, and practical solutions.</h1>
+                <h1>I build responsive web interfaces that are clear, fast, and easy to maintain.</h1>
                 <p class="sub">
-                    I build user-friendly web interfaces with clear structure, reusable components, and predictable behavior.
-                    I focus on readability, simplicity, and maintainability.
-                    React • JavaScript • HTML • CSS • MySQL • MongoDB
+                    Portfolio focused on production-style frontend work: API integration, reusable UI components,
+                    and accessible interaction patterns. Stack: React, JavaScript, HTML, CSS, MySQL, MongoDB.
                 </p>
                 <div class="hero-actions">
                     <a class="btn" href="assets/Irene_Grape_Frontend_Developer.pdf" target="_blank" rel="noopener" download>Download Resume</a>
@@ -44,11 +44,11 @@
             </div>
 
             <div class="hero-card">
-                <h3>Quick facts</h3>
+                <h3>Quick Snapshot</h3>
                 <ul>
-                    <li>Built React applications connected to REST APIs</li>
-                    <li>Implemented responsive and accessible user interfaces</li>
-                    <li>Developed CRUD features, filtering, and pagination</li>
+                    <li>Built end-to-end React and vanilla JavaScript interfaces using REST APIs</li>
+                    <li>Designed mobile-first layouts with semantic HTML and accessibility fundamentals</li>
+                    <li>Implemented search, filtering, and CRUD flows with predictable state behavior</li>
                 </ul>
             </div>
         </section>
@@ -57,41 +57,70 @@
         <section id="projects" class="section container">
             <div class="section-head">
                 <h2>Featured Projects</h2>
-                <p>Structured as a scalable showcase: 1 live case study now, space reserved for up to 10.</p>
+                <p>Two complete case studies with a scalable structure for additional projects.</p>
             </div>
 
             <div class="projects-showcase">
-                <article class="project-feature" aria-label="Global News Snapshot project">
-                    <div class="project-media-wrap">
-                        <img class="project-media" src="assets/projects/global-news-snapshot.png" alt="Global News Snapshot dashboard with live headline cards, filters, and keyword search" loading="lazy" />
-                        <div class="project-chip-row">
-                            <span>Live API Data</span>
-                            <span>Filterable UI</span>
-                            <span>Responsive Layout</span>
+                <div class="project-stack">
+                    <article class="project-feature" aria-label="Global News Snapshot project">
+                        <div class="project-media-wrap">
+                            <img class="project-media" src="assets/projects/global-news-snapshot.png" alt="Global News Snapshot dashboard with live headline cards, filters, and keyword search" loading="lazy" />
+                            <div class="project-chip-row">
+                                <span>Live API Data</span>
+                                <span>Filterable UI</span>
+                                <span>Responsive Layout</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="project-content">
-                        <p class="project-index">Project 01 / 10</p>
-                        <h3>News API</h3>
-                        <p class="project-description">
-                            Live news dashboard with smart search and filters.
-                        </p>
-                        <div class="tags">
-                            <span>JavaScript</span>
-                            <span>REST API</span>
-                            <span>HTML/CSS</span>
-                            <span>UI Architecture</span>
+                        <div class="project-content">
+                            <p class="project-index">Project 01 / 10</p>
+                            <h3>Global News Snapshot</h3>
+                            <p class="project-description">
+                                Live news dashboard that consumes API data and turns it into a clean, filterable
+                                reader experience with keyword search and responsive layout behavior.
+                            </p>
+                            <div class="tags">
+                                <span>JavaScript</span>
+                                <span>REST API</span>
+                                <span>HTML/CSS</span>
+                                <span>UI Architecture</span>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+
+                    <article class="project-feature" aria-label="HTTP Status Codes explainer project">
+                        <div class="project-media-wrap">
+                            <img class="project-media" src="assets/projects/http-status-codes.png" alt="HTTP Status Codes interactive explainer with success, redirect, and error groups" loading="lazy" />
+                            <div class="project-chip-row">
+                                <span>Animated UI</span>
+                                <span>Deterministic Color Mapping</span>
+                                <span>Accessibility-First Motion</span>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <p class="project-index">Project 02 / 10</p>
+                            <h3>HTTP Status Codes Explainer</h3>
+                            <p class="project-description">
+                                Designed and built a responsive, single-page educational web app that explains HTTP status codes for beginner/teen audiences. Implemented a custom animated UI (floating gradient background, hover glow, click ripple), deterministic status color mapping (2xx success, 3xx redirect, 4xx/5xx error), and accessibility-first reduced-motion support with OS detection plus local preference persistence. Built with vanilla HTML, CSS, and JavaScript.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Animation</span>
+                                <span>Accessibility</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
 
                 <aside class="project-rail" aria-label="Future project slots">
                     <h3>Roadmap</h3>
-                    <p>Upcoming portfolio entries will follow the same structure for clear, recruiter-friendly comparison.</p>
+                    <p>Planned entries follow the same format so each project is easy to scan and compare.</p>
                     <ol>
                         <li>News API</li>
-                        <li>Project 02</li>
+                        <li>HTTP Status Codes Explainer</li>
                         <li>Project 03</li>
                         <li>Project 04</li>
                         <li>Project 05</li>
@@ -115,28 +144,28 @@
                 <div class="skill-box">
                     <h3>Frontend</h3>
                     <ul>
-                        <li>HTML5, CSS3, Responsive Design</li>
-                        <li>JavaScript (ES6+), DOM, Fetch</li>
-                        <li>React (hooks, components)</li>
-                        <li>Basic accessibility (semantic HTML, keyboard navigation)</li>
+                        <li>HTML5, CSS3, responsive UI implementation</li>
+                        <li>JavaScript (ES6+), DOM APIs, Fetch</li>
+                        <li>React fundamentals (hooks, components, state)</li>
+                        <li>Semantic markup and keyboard-friendly interaction patterns</li>
                     </ul>
                 </div>
 
                 <div class="skill-box">
                     <h3>Backend / Data</h3>
                     <ul>
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
-                        <li>JSON, REST APIs</li>
+                        <li>REST APIs, JSON, client-server data flows</li>
+                        <li>MySQL basics and query-driven data usage</li>
+                        <li>MongoDB basics for document-based storage</li>
                     </ul>
                 </div>
 
                 <div class="skill-box">
                     <h3>Tools</h3>
                     <ul>
-                        <li>Git/GitHub</li>
-                        <li>VS Code</li>
-                        <li>Chrome DevTools</li>
+                        <li>Git/GitHub workflow and version control</li>
+                        <li>VS Code and structured project organization</li>
+                        <li>Chrome DevTools for debugging and performance checks</li>
                     </ul>
                 </div>
             </div>
@@ -149,23 +178,35 @@
             </div>
             <div class="about">
                 <p>
-                    I am a front-end developer with 2-3 years of consistent self-directed learning and practice in web development.
-                    My background as a mathematics and physics teacher gives me a strong foundation in logical
-                    reasoning, structured thinking, and problem solving.
+                    I am a front-end developer with 2+ years of consistent self-directed learning and project-based
+                    practice. My background in mathematics and physics education shaped a structured approach to
+                    problem solving, communication, and technical reasoning.
                 </p>
                 <p>
-                    I work confidently with JavaScript, HTML, CSS, and React, and I have experience building
-                    responsive interfaces, working with APIs, and managing data using MongoDB and MySQL.
-                    I am highly focused, disciplined, and effective at managing my time, which allows me to
-                    learn quickly and work independently.
+                    I work confidently with JavaScript, HTML, CSS, and React, with hands-on experience building
+                    responsive interfaces, integrating APIs, and handling data through MongoDB and MySQL.
                 </p>
                 <p>
-                    I am motivated by clean code, clear UI, and building applications that are reliable, readable,
-                    and user-friendly.
+                    I focus on clean code, readable structure, and UI decisions that improve usability.
+                    I enjoy turning technical requirements into interfaces that feel straightforward to users.
                 </p>
                 <p>
-                    I am comfortable explaining my technical decisions and learning from feedback.
+                    I am actively looking for a junior front-end role where I can contribute to real products,
+                    collaborate with a team, and continue growing through feedback.
                 </p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section container">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <p>Open to junior front-end opportunities, internships, and project collaboration.</p>
+            </div>
+            <div class="contact-panel">
+                <a class="btn" href="mailto:irynagrape@gmail.com">Email Me</a>
+                <a class="btn btn-ghost" href="https://github.com/irynagrape/" target="_blank" rel="noopener">GitHub Profile</a>
+                <a class="btn btn-ghost" href="https://www.linkedin.com/in/iryna-grape-9b5146311/" target="_blank" rel="noopener">LinkedIn Profile</a>
             </div>
         </section>
 
