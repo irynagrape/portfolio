@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Pocket Ledger preview</title>
+  <desc id="desc">Illustrative dashboard preview for the Pocket Ledger personal finance project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6f8fb"/>
+      <stop offset="100%" stop-color="#dfe8f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="66" fill="#ffffff" opacity="0.95"/>
+  <text x="36" y="42" font-family="Arial, sans-serif" font-size="28" fill="#0f172a" font-weight="700">Pocket Ledger</text>
+  <rect x="980" y="18" width="220" height="30" rx="8" fill="#0f766e"/>
+  <text x="1054" y="39" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" font-weight="700">+ Add</text>
+
+  <rect x="70" y="110" width="360" height="120" rx="16" fill="#ffffff" stroke="#d7dee9"/>
+  <rect x="460" y="110" width="360" height="120" rx="16" fill="#ffffff" stroke="#d7dee9"/>
+  <rect x="850" y="110" width="360" height="120" rx="16" fill="#ffffff" stroke="#d7dee9"/>
+  <text x="100" y="156" font-family="Arial, sans-serif" font-size="24" fill="#64748b">Total Spent</text>
+  <text x="100" y="198" font-family="Arial, sans-serif" font-size="42" fill="#0f172a" font-weight="700">$105.48</text>
+  <text x="490" y="156" font-family="Arial, sans-serif" font-size="24" fill="#64748b">Total Income</text>
+  <text x="490" y="198" font-family="Arial, sans-serif" font-size="42" fill="#0f172a" font-weight="700">$500.00</text>
+  <text x="880" y="156" font-family="Arial, sans-serif" font-size="24" fill="#64748b">Net</text>
+  <text x="880" y="198" font-family="Arial, sans-serif" font-size="42" fill="#0f766e" font-weight="700">$394.52</text>
+
+  <rect x="70" y="260" width="560" height="390" rx="16" fill="#ffffff" stroke="#d7dee9"/>
+  <rect x="650" y="260" width="560" height="390" rx="16" fill="#ffffff" stroke="#d7dee9"/>
+  <text x="100" y="315" font-family="Arial, sans-serif" font-size="40" fill="#0f172a" font-weight="700">Top Categories</text>
+  <text x="680" y="315" font-family="Arial, sans-serif" font-size="40" fill="#0f172a" font-weight="700">Spending by Category</text>
+
+  <rect x="100" y="360" width="410" height="40" rx="8" fill="#ecf2f8"/>
+  <rect x="100" y="420" width="280" height="40" rx="8" fill="#ecf2f8"/>
+  <rect x="100" y="480" width="180" height="40" rx="8" fill="#ecf2f8"/>
+  <text x="530" y="389" font-family="Arial, sans-serif" font-size="24" fill="#0f172a" text-anchor="end" font-weight="700">$66.45</text>
+  <text x="530" y="449" font-family="Arial, sans-serif" font-size="24" fill="#0f172a" text-anchor="end" font-weight="700">$23.69</text>
+  <text x="530" y="509" font-family="Arial, sans-serif" font-size="24" fill="#0f172a" text-anchor="end" font-weight="700">$15.34</text>
+
+  <line x1="700" y1="570" x2="1150" y2="570" stroke="#9aa9bb" stroke-width="3"/>
+  <line x1="700" y1="360" x2="700" y2="570" stroke="#9aa9bb" stroke-width="3"/>
+  <rect x="740" y="440" width="90" height="130" fill="#16a34a"/>
+  <rect x="860" y="490" width="90" height="80" fill="#0284c7"/>
+  <rect x="980" y="515" width="90" height="55" fill="#7c3aed"/>
+</svg>
